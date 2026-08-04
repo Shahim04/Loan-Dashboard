@@ -8,7 +8,7 @@ An end-to-end data analysis project evaluating loan performance, applicant demog
 
 | 1. Loan Default Overview | 2. Demographics & Financial Profile | 3. Financial Risk Metrics |
 | :---: | :---: | :---: |
-| ![Loan Default & Overview]("C:\Users\ASUS\Desktop\Visuals\P1.png") | ![Applicant Demographics]("C:\Users\ASUS\Desktop\Visuals\P2.png") | ![Financial Risk Metrics]("C:\Users\ASUS\Desktop\Visuals\P3.png") |
+| ("C:\Users\ASUS\Desktop\Visuals\P1.png") | ("C:\Users\ASUS\Desktop\Visuals\P2.png") | ("C:\Users\ASUS\Desktop\Visuals\P3.png") |
 
 ---
 
