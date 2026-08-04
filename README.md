@@ -33,7 +33,7 @@ An end-to-end data analysis project evaluating loan performance, applicant demog
 ---
   ## 🧮 Key DAX Calculations
 
-Here are some of the primary DAX measures created for this report (see full code in [`scripts/dax_measures.dax`](./scripts/dax_measures.dax)):
+Here are some of the primary DAX measures created for this report (see full Measures in the DAX file):
 
 ```dax
 // Calculates Year-over-Year Default Loan Change
