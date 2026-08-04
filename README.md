@@ -1,1 +1,1 @@
-# Loan-Dashboard
+This project provides an end-to-end financial risk and loan performance analysis designed to uncover key drivers behind loan defaults, applicant demographic risks, and year-over-year portfolio growth. Built using Power BI, Power Query, and DAX, the report transforms raw financial data into interactive executive dashboards to support data-driven credit underwriting and risk mitigation strategies.
