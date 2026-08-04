@@ -30,3 +30,22 @@ An end-to-end data analysis project evaluating loan performance, applicant demog
   * Implemented a **Star Schema** with centralized fact tables for loan transactions connected to key dimension tables (Demographics, Employment, Time Intelligence).
 * **Advanced Analytics (DAX):**
   * Implemented key measure logic for YoY Loan Amount Growth, YoY Default Loan Volatility, Median Calculations, and dynamic Default Rate percentages.
+---
+  ## 🧮 Key DAX Calculations
+
+Here are some of the primary DAX measures created for this report (see full code in [`scripts/dax_measures.dax`](./scripts/dax_measures.dax)):
+
+```dax
+// Calculates Year-over-Year Default Loan Change
+YoY Def Loan Change = 
+VAR CurrentYearDefault = SUM(Loans[DefaultedAmount])
+VAR PreviousYearDefault = CALCULATE(
+    SUM(Loans[DefaultedAmount]), 
+    SAMEPERIODLASTYEAR('Calendar'[Date])
+)
+RETURN
+IF(
+    ISBLANK(PreviousYearDefault),
+    BLANK(),
+    CurrentYearDefault - PreviousYearDefault
+)
